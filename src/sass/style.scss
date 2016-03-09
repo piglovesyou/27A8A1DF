@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+}
+
+#application {
+  flex: 1;
+  display: flex;
+}
+
+#application-content {
+  flex: 1;
+  display: flex;
+}
+
+#application-index {
+  flex: 1;
+  display: flex;
+}
+
+#iframe {
+  flex: 1;
+  border: none;
+}
+
+#palette {
+  position: absolute;
+  background: white;
+  /* width: 100px; */
+  /* height: 200px; */
+  left: 0px;
+  top: 0px;
+}
+
+.draggable-handler {
+  cursor: move;
+}
